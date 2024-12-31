@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/baseline_arrow_upward_24"
+        android:title="Kirim Uang" />
+    <item
+        android:id="@+id/nav_top_up"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="Isi Saldo" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/baseline_history_24"
+        android:title="Riwayat" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/baseline_boy_24"
+        android:title="Profil" />
+</menu>

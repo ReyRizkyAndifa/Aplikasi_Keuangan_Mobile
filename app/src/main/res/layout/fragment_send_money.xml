@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMoneyFragment">
+
+    <!-- Input Jumlah Uang yang ingin dikirim -->
+    <EditText
+        android:id="@+id/editAmountToSend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Jumlah_uang"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"  />
+
+    <!-- Input Penerima -->
+    <EditText
+        android:id="@+id/editRecipient"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/penerima_nomor_telepon"
+        app:layout_constraintTop_toBottomOf="@id/editAmountToSend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Tombol Kirim Uang -->
+    <Button
+        android:id="@+id/buttonSendMoney"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/kirim_uang"
+        app:layout_constraintTop_toBottomOf="@id/editRecipient"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

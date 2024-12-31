@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textType" type="id" />
+    <item name="textAmount" type="id" />
+    <item name="textDate" type="id" />
+    <item name="recyclerViewHistory" type="id" />
+    <item name="edtUsername" type="id" />
+    <item name="edtPassword" type="id" />
+    <item name="edtConfirm" type="id" />
+    <item name="textWelcome" type="id" />
+    <item name="infosaldo" type="id" />
+    <item name="buttonHome" type="id" />
+    <item name="textTime" type="id" />
+    <item name="imageView3" type="id" />
+</resources>

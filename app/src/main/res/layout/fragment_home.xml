@@ -1,0 +1,96 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Jam Digital -->
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imageView3" />
+
+    <!-- Gambar Profil -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/ic_profil"
+        app:layout_constraintTop_toBottomOf="@id/textTime"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Selamat Datang -->
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Selamat Datang, Pengguna!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <!-- Saldo Pengguna -->
+    <TextView
+        android:id="@+id/infosaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo Saat Ini: Rp. 1,000,000"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/textWelcome"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Tombol Kirim Uang -->
+    <Button
+        android:id="@+id/buttonSendMoney"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kirim Uang"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/primary"
+        app:layout_constraintTop_toBottomOf="@id/infosaldo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        android:padding="12dp" />
+
+    <!-- Tombol Isi Saldo -->
+    <Button
+        android:id="@+id/buttonTopUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Isi Saldo"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/primary"
+        app:layout_constraintTop_toBottomOf="@id/buttonSendMoney"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        android:padding="12dp" />
+
+    <!-- Navigasi Bawah -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="16dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

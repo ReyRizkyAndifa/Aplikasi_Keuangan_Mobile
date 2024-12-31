@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplikasi Keuangan#3</string>
+    <string name="jumlah_uang">Jumlah Uang</string>
+    <string name="kirim">Kirim</string>
+    <string name="nomor_penerima">Nomor Penerima</string>
+    <string name="kirim_uang">Kirim Uang</string>
+    <string name="penerima_nomor_telepon">Penerima (Nomor Telepon)</string>
+    <string name="Jumlah_uang">Jumlah Uang</string>
+    <string name="transaction_icon" />
+    <string name="type">Type</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="back">Back</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
